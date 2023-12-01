@@ -1,0 +1,1118 @@
+/*public*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Alegreya Sans', sans-serif;
+    width: auto;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+}
+.clrfix
+{
+    clear: both;
+}
+
+
+/*header style start*/
+.header
+{
+    background-image: url('../img/shutterstock_277750193.jpg');
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.navbar
+{
+    padding-top: 25px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+
+
+}
+
+.nav
+{
+    float: left;
+    width: 60%;
+    margin-top: 25px;
+}
+
+.logo
+{
+    height: 54px;
+    float: left;
+    width: 40%;
+}
+.logo img
+{
+    width: 25%;
+}
+
+.nav ul li
+{
+    display: inline-block;
+    width: 80px;
+   
+}
+
+.nav ul li a
+{
+   color: #fff;
+   font-size: 20px;
+}
+
+.header_Content 
+{
+    margin-top: 70px;
+    color: #fff;
+}
+
+.header_Content h1 
+{
+    font-size: 76px;
+    margin-bottom: 30px;
+    font-family: 'Alegreya', serif;
+   font-weight: 100;
+}
+
+.header_Content p 
+{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Dancing Script', cursive;
+    line-height:60px;
+    font-weight: 100;
+}
+
+.header_Content button
+{
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+.header_Content .learn-more
+{
+  background-color: #c1ab84;
+  color: #fff;
+  cursor: pointer;
+}
+
+.learn-more:hover
+{
+background-color: #fff;
+color: #000;
+}
+
+.header_Content .book-Avisit
+{
+
+  cursor: pointer;
+}
+
+.overlay
+{
+    padding-top: 16px;
+    background-color: rgba(0, 0, 0, .3);
+    height: 100vh;
+}
+/*header style end*/
+
+/*about style start*/
+
+.About
+{
+    background-color: #fff;
+    text-align:center;
+    padding: 90px 0px 60px 0px;
+    height: auto;
+}
+.container
+{
+margin: auto;
+}
+
+.About-content
+{
+    background-color: #fff;
+    text-align:left;
+    padding-left: 15px;
+    display: inline-block;
+
+
+
+}
+
+.chef-image
+{ 
+    background-color: #fff;
+    display: inline-block;
+    padding-right:60px ;
+    width: 35%;
+
+
+}
+
+.chef-image img
+{
+    width: 100%;
+}
+
+
+.About-details
+{
+    display: inline-block;
+    width: 40%;
+    
+
+   
+}
+
+.About-details h2
+{
+    color: #253048;
+    font-size: 36px;
+    margin-bottom: 8px;
+    font-family: 'Alegreya', serif;
+    line-height:60px;
+    font-weight: 100;
+
+}
+
+
+.About-details h3
+{
+    color: #c1ab84;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+    line-height:60px;
+    font-weight: 100;
+
+}
+
+.About-details p
+{
+    color: #686868;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 1.9rem;
+
+}
+
+.About-details ul  
+{
+    padding: 15px 0px 15px 0px;
+    margin: 0px 0px 18px;
+
+}
+.About-details ul li 
+{
+    padding-bottom:  15px ;
+    margin-bottom: 8px;
+
+}
+
+.About-details ul li i
+{
+    color: #fff;
+    background-color: #c1ab84;
+    width: 52px;
+    height: 52px;
+    font-size: 24px;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 10px;    
+    line-height: 52px;
+
+}
+
+.About-details ul li  span
+{
+    color: #686868;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+/*about style end*/
+
+
+/*review style start*/
+.Reviews
+{
+    height: 90vh;
+    background-color: rgb(248, 248, 248);
+    text-align:center;
+    height: auto;
+    padding: 90px 0px 60px 0px;
+}
+
+.Reviews-content
+{
+    text-align:left;
+    padding-left: 15px;
+}
+
+.Reviews-details
+{ 
+    display: inline-block;
+    padding-right:60px ;
+    width: 35%;
+
+}
+.Reviews-details h2
+{
+    color: #253048;
+    font-size: 36px;
+    margin-bottom: 8px;
+    font-family: 'Alegreya', serif;
+    line-height:50px;
+    font-weight: 100;
+
+}
+
+.Reviews-details h3
+{
+    color: #c1ab84;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+    line-height:40px;
+    font-weight: 100;
+
+}
+
+.Reviews-details p
+{
+    color: #686868;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 40px;
+
+}
+
+.Reviews-details ul  
+{
+    margin: 0px 0px 18px;
+
+}
+.Reviews-details ul li 
+{
+    padding: 2px 0 2px 3px ;
+    margin-bottom: 8px;
+
+}
+
+.Reviews-details ul li i
+{
+    color:#c1ab84;
+    width: 22px;
+    font-size: 18px;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 10px;    
+    line-height: 30px;
+
+}
+
+.Reviews-details ul li  span
+{
+    color: #686868;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.Review-image
+{ 
+    display: inline-block;
+    padding-right:60px ;
+    width: 35%;
+    text-align: center;
+    
+
+
+}
+.Review-image img
+{
+    width: 100%;
+}
+
+/*review style end*/
+
+/*image style start*/
+.Image
+{
+    background-image: url(../img/shutterstock_280369721.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*image style end*/
+
+/*menu style start*/
+.Menu
+{
+    padding-top: 70px;
+    text-align: center;
+    margin: auto;
+}
+.Menu h2
+{
+    color: #253048;
+    font-size: 36px;
+    margin-bottom: 8px;
+    font-family: 'Alegreya', serif;
+    line-height:50px;
+    font-weight: 100;
+}
+.Menu h3
+{
+    color: #c1ab84;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+    line-height:40px;
+    font-weight: 100;
+
+}
+.menu-content
+{
+    margin-top: 50px;
+    text-align: center;
+}
+.Menu .menu-content .menu-item
+{
+    width: 25%;
+    display: inline-block;
+    margin-bottom: 60px;
+    margin-right: 15px;
+    padding-left: 25px;
+
+   
+}
+.Menu .menu-content .menu-item .meal-info
+{
+    width: auto;
+    font-family: 'Alegreya', serif;
+    line-height:50px;
+    font-weight: 100;
+    font-size: 21px;
+    color: rgb(37, 48, 72);
+
+}
+.Menu .menu-content .menu-item .meal-info h4
+{
+    font-family: 'Alegreya', serif;
+    line-height:50px;
+    font-weight: 100;
+    font-size: 21px;
+    color: rgb(37, 48, 72);
+
+}
+.Menu .menu-content .menu-item .meal-info p
+{
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height:30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+
+}
+.Menu .menu-content .menu-item img
+{
+    height: auto;
+    width: 100%;
+}
+
+.Menu .btn 
+{
+    padding-bottom: 70px;
+
+}
+
+.Menu .btn .Full-Menu
+{
+    background-color: #c1ab84;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 11px 20px;
+    border: #c1ab84 2px solid;  
+}
+/* .Menu .btn .Full-Menu:hover::after
+{
+    padding-right: 30px;
+    content: "\f138";
+    background-color: #c1ab84;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 11px 20px;
+    border: #c1ab84 2px solid;  
+} */
+
+
+/*menu style end*/
+
+/*location style start*/
+.location
+{
+    height: 90vh;
+    background-color: #fff;
+    text-align:center;
+    height: auto;
+    padding: 90px 0px 60px 0px;
+}
+
+.location-content
+{
+    text-align:left;
+    padding-left: 15px;
+}
+
+.location-details
+{ 
+    display: inline-block;
+    padding-right:80px ;
+    padding-left:60px ;
+    width: 40%;
+    float: left;
+
+}
+.location-details h2
+{
+    color: #253048;
+    font-size: 36px;
+    margin-bottom: 8px;
+    font-family: 'Alegreya', serif;
+    line-height:50px;
+    font-weight: 100;
+
+}
+
+/* .location-details h3
+{
+    color: #c1ab84;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+    line-height:40px;
+    font-weight: 100;
+
+} */
+
+.location-details p
+{
+    color: #686868;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 40px;
+
+}
+
+.location-details ul  
+{
+    margin: 0px 0px 18px;
+
+}
+.location-details ul li 
+{
+    padding: 2px 0 2px 3px ;
+    margin-bottom: 8px;
+
+}
+
+.location-details ul li i
+{
+    /* color:#c1ab84;
+    width: 22px;
+    font-size: 18px;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 10px;    
+    line-height: 30px; */
+    color: #fff;
+    background-color: #c1ab84;
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 10px;    
+    line-height: 36px;
+
+}
+
+.location-details ul li  span
+{
+    color: #686868;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.location-image
+{ 
+    display: inline-block;
+    padding-right:60px ;
+    width: 35%;
+    text-align: center;
+
+}
+
+/*location style end */
+
+/*footer style start*/
+
+.footer
+{
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: #403d38;
+}
+
+.footer h4
+{
+    margin-bottom: 25px;
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    font-weight:  100;
+
+
+}
+
+.footer .container
+{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.footer a
+{
+    text-decoration:none ;
+}
+
+.footer i
+{
+    padding-right: 8px;
+    font-size: 10px;
+}
+
+.footer a, .footer p,.footer li
+{
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+
+
+}
+.footer li
+{
+border-bottom: 1px solid rgba(255,255,255,0.05);
+padding-bottom: 20px;
+}
+
+.footer .icon i{
+    font-size: 18px;
+}
+.footer p
+{
+margin-bottom: 20px;
+}
+
+.footer .footer-item
+{
+    width: 22%;
+    float: left;
+    padding-left: 25PX;
+}
+.footer .border-bottom-none
+{
+    border-bottom: none;
+}
+
+.footer-item .map
+{
+
+   position: relative;
+}
+.footer .footer-item .overlay
+{
+    background-image: url(../img/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.11;
+   background-color: #403d38;
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   height: auto;
+   padding-top: 0px;
+}
+
+/*footer style end*/
+
+/*copyright style start*/
+.copyright 
+{
+    background-color: #353330;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.copyright .image-copy
+{
+    height: auto;
+    margin-bottom:25px ;
+}
+
+.copyright p
+{
+  color:   rgb(119, 119, 119);
+  font-size: 18px;
+  font-family: 'Alegreya Sans', sans-serif;
+  
+}
+
+.copyright .social-icons li i
+{
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    background-color: rgb(72, 69, 64);
+    border-radius: 100%;
+    color: rgb(140, 138, 134);
+    margin-top: 25px;
+    margin-left: 8px;
+
+}
+
+/*copyright style end*/
+
+.arrow a{
+    float: right;
+    background: rgba(0,0,0,0.6);
+    border: 2px solid rgba(255,255,255,0.8);
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    opacity: .5;
+    border-radius: 100%;
+}
+
+.list-group
+{
+    float: right;
+    background: rgba(255,255,255);
+    border: 2px solid rgba(255,255,255,0.8);
+    height: 80px;
+    width: 40px;
+    right:  0;
+    color: rgb(102, 102, 102);
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 60vh;
+    right: 0px;
+    z-index: 9999;
+}
+
+
+.list-group a
+{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+
+}
+
+@media  screen and (max-width:360px)
+{
+    
+.header  
+{
+    height: 200vh;
+    
+
+}
+.navbar
+{
+    background-color:#353330 ;
+   position: absolute;
+}
+.nav{
+    float: none;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.nav ul li a
+{
+   font-size: 22px;
+}
+
+.logo
+{
+    float: none;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 16px;
+}
+.logo img
+{
+    width: 30%;
+}.nav ul li
+{
+   
+    width: 35px;
+   margin-left: 30px;
+}
+.header_Content 
+{
+    padding-top: 200px;
+}
+.header_Content img
+{
+    width: 100%;
+}
+.header_Content h1 
+{
+    font-size: 55px;
+    
+}
+.header_Content p 
+{
+    font-size:32px;
+  
+}
+
+.overlay
+{
+  height: 200vh;
+
+}
+.header_Content button
+{
+    padding: 30px 60px;
+    font-size: 20px;
+}
+.chef-image img {
+    width: 94%;
+}
+
+.About-content
+{
+  
+    display: block;
+
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+
+}
+.About-details h2
+{
+    font-size: 48px;
+    line-height: 75px;
+
+}
+.About-details h3
+{
+    font-size: 35px;
+    line-height:80px;
+    font-weight: 100;
+
+}
+.About-details p
+{
+    font-size: 25px;
+    line-height: 2.9rem;
+
+}
+.About-details ul li i
+{
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+    line-height: 64px;
+}
+
+
+.About-details ul li  span
+{
+    font-size: 25px;
+   
+}
+.About-details ul li 
+{
+    padding-bottom:  25px ;
+    margin-bottom: 10px;
+
+}
+.Reviews-content
+{
+    margin-top: 50px;
+
+}
+.Reviews-details
+{ 
+    display: block;
+    width: 100%;
+
+}
+
+.Reviews-details h2
+{
+    font-size: 48px;
+    line-height: 75px;
+
+}
+.Reviews-details h3
+{
+    font-size: 35px;
+    line-height:80px;
+    font-weight: 100;
+
+}
+.Reviews-details p
+{
+    font-size: 25px;
+    line-height: 2.9rem;
+
+}
+.Reviews-details ul li i
+{
+    width: 55px;
+    font-size: 25px;
+    line-height: 60px;
+
+}
+.Reviews-details ul li  span
+{
+    font-size: 25px;
+    
+   
+}
+.Reviews-details ul li 
+{
+    margin-bottom: 10px;
+
+}
+.Reviews-details ul {
+    margin: 0px 0px 90px;
+}
+.Review-image
+{ 
+ 
+    width:90%;
+    padding-right:15px ;
+
+
+}
+
+.Image{
+    height: 110vh;
+
+}
+.Menu h2
+{
+    font-size: 48px;
+    line-height: 75px;
+}
+.Menu h3
+{
+    font-size: 35px;
+    margin-bottom: 100px;
+    
+
+}
+.Menu .menu-content .menu-item
+{
+    width: 100%;
+    display: block;
+  
+
+   
+}
+.Menu .container
+{
+    margin-right: 50px;
+
+}
+.Menu .menu-content .menu-item .meal-info h4
+{
+    line-height: 89px;
+    font-size: 28px;
+
+}
+.Menu .menu-content .menu-item .meal-info p
+{
+    line-height: 37px;
+    font-size: 23px;
+}
+
+.Menu .btn .Full-Menu
+{
+
+    font-size: 25px;
+
+}
+.location-details
+{ 
+    display: block;
+    width: 100%;
+    padding-left: 30px;
+
+
+}
+
+.location-details h2
+{
+    font-size: 48px;
+    line-height: 75px;
+}
+
+
+.location-details p
+{
+    font-size: 25px;
+    line-height: 2.9rem;
+
+}
+.location-details ul li i
+{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 50px;
+
+}
+.location-details ul li  span
+{
+    font-size: 23px;
+    
+   
+}
+.location-details ul li 
+{
+    padding-bottom:  25px ;
+    margin-bottom: 10px;
+
+}
+.location-image
+{ 
+ 
+    width:90%;
+    padding-right: 15px;
+
+}
+.footer h4
+{
+    font-size: 28px;
+
+
+}
+.footer .footer-item
+{
+    width: 100%;
+    float:none;
+    padding-left: 0PX;
+}
+.footer .container
+{
+    padding-left: 24px;
+    padding-right: 50px;
+}
+.footer a, .footer p,.footer li
+{
+    font-size: 20px;
+    line-height: 36px;
+
+
+}
+.copyright .image-copy img
+{
+width: 100%;
+}
+
+.copyright p
+{
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+
+.copyright .social-icons li i 
+{
+    height: 75px;
+    width: 75px;
+    line-height: 77px;
+    font-size: 32px;
+}
+.arrow a{
+  
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    line-height: 52px;
+    bottom: 24px;
+    right: 19px;
+}
+.list-group
+{
+    height: 110px;
+    width: 53px;
+    font-size: 31px;
+    line-height: 56px;
+    bottom: 60%;
+}
+
+}
